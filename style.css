@@ -1,56 +1,133 @@
 
 body {
-    background-color: rgb(217, 182, 247);
-    color: black;
+    background-color: rgb(255, 233, 244);
+    color: rgb(244, 134, 204);
 }
 .title {
-    background-color: lightblue;
+    background-color: rgb(249, 108, 212);
     height: 80px;
     width: 1000px;
-    margin-left: 220px;
+    margin: auto;
+    margin-top: 20px;
     text-align: center;
     font-size: 50px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    border: 4px dashed white;
+    border-radius: 15px;
 }
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 20px;
+    }
+    #about {
+        height: 280px;
+        width: 500px;
+        background-color: rgb(249, 239, 180);
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        border: 4px dashed rgb(249, 108, 212);
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    }
 
     .panel {
-        height: 100px;
-        width: 300px;
-        background-color: rgb(233, 148, 225);
+        height: 280px;
+        width: 500px;
+        background-color: rgb(249, 239, 180);
         font-size: 20px;
         text-align: center;
+        padding: 10px;
+        border: 4px dashed rgb(249, 108, 212);
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,.15);
     }
 
-    .intro {
-        height: 80px;
-        width: 300px;
-        background-color: rgb(163, 227, 237);
-        font-size: 13px;
-        margin-top: 5px;
+    nav {
+        height: 50px;
+        width: 500px;
+        background-color: rgb(249, 108, 212);
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+        border: 4px dashed rgb(249, 239, 180);
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,.15);
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .cityimg {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: auto;
+    }
+
+    .rocketimg {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: auto;
+    }
+
+    .channelimg {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: auto;
+    }
+
+    .chippyimg {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: auto;
+    }
+
+    .atlaimg {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: auto;
+    }
+
+    #projects {
+        height: 150px;
+        width: 800px;
+        background-color: rgb(249, 108, 212);
+        font-size: 20px;
+        text-align: center;
+        border: 4px dashed rgb(249, 239, 180);
+        border-radius: 15px;
+        box-shadow: 0 8px 20px rgba(0,0,0,.15);
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        padding: 10px;
+    }
+
+    .project-description {
         text-align: left;
-    }
-
-    .box1 {
-        height: 200px;
-        width: 200px;
-        background-color: rgb(234, 234, 158);
-    }
-
-    #text {
         font-size: 20px;
-        text-align: center;
-    }
-
-    .box2 {
-        height: 200px;
-        width: 200px;
-        background-color: rgb(234, 234, 158);
-    }
-
-    #text {
-        font-size: 20px;
-        text-align: center;
     }
 
 
